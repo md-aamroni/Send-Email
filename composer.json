@@ -1,0 +1,21 @@
+{
+    "name": "adecoder/send-email",
+    "description": "Integrate SMTP mail using PHPMailer including built-in template",
+    "type": "library",
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Adecoder\\SendEmail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "md-aamroni",
+            "email": "md.aamroni@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
